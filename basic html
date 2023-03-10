@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .p1 {
+        color: brown;
+        text-align: center;
+        text-transform: capitalize;
+      }
+      #heading {
+        color: red;
+        font-size: 30px;
+      }
+      .green {
+        color: green;
+        font-size: 50px;
+        font-family: "Courier New", Courier, monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Puran</h1>
+    <h2>Puran</h2>
+    <h3>Puran</h3>
+    <h4>Puran</h4>
+    <h5>Puran</h5>
+    <h6>Puran</h6>
+    <p class="p1">
+      Lorem ipsum dolor sit amet, <em>consectetur</em>
+      <mark>adipisicing elit.</mark>
+      <q
+        >Mollitia doloribus dignissimos ipsa blanditiis quis distinctio amet,</q
+      >
+      minima unde perspiciatis placeat in
+      <sub>perferendis modi.</sub> Voluptatem vitae <s>atus officiis,</s>
+      <del>deleniti</del> neque nulla?
+    </p>
+    <h1>Self image</h1>
+    <img src="./image/IMG-0592.jpg" alt="self image" width="500" height="500" />
+    <h1>Street image</h1>
+    <img
+      src="https://images.unsplash.com/photo-1676238540582-5958404206c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2059&q=80"
+      alt="street image"
+      width="1000px"
+      height="600"
+    />
+
+    <div id="heading">This is HTML 1</div>
+    <div class="green">This is HTML 2</div>
+    <div class="green">This is HTML 3</div>
+    <div class="green">This is HTML 4</div>
+    <pre>
+    My Bonnie lies over the ocean.
+
+    My Bonnie lies over the sea.
+    
+    My Bonnie lies over the ocean.
+    
+    Oh, bring back my Bonnie to me.</pre
+    >
+
+    <blockquote cite="http://www.google.com">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos vero
+      consequuntur, voluptatem accusamus soluta veniam ea doloribus consectetur
+      porro aut unde hic maiores voluptas et minima sapiente. Labore, nemo
+      doloremque!
+    </blockquote>
+    <p style="text-decoration: line-through">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos vero
+      consequuntur, voluptatem accusamus soluta veniam ea doloribus consectetur
+      porro aut unde hic maiores voluptas et minima sapiente. Labore, nemo
+      doloremque!
+    </p>
+    <bdo dir="ltr">text is going from left to right</bdo> <br />
+    <bdo dir="rtl">text is going right to left</bdo>
+    <p>
+      The <abbr title="World Health Organization"> WHO</abbr> was founded in
+      1948.
+    </p>
+    <!--<h1>This is a heading</h1>
+    <p>This is a paragraph.</p> -->
+    <a href="html_images.asp" style="text-decoration: dotted">HTML Images</a>
+    <br />
+    <a href="html_images.asp" target="_blank">HTML Images</a> <br />
+    <a href="default.html" title="Home">Back to Home</a> <br />
+    <p>
+      <img src="smiley.gif" style="float: right" />
+      This is a paragraph. This paragraph contains an image
+    </p>
+  </body>
+</html>
