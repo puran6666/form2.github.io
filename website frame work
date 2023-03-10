@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- internal css -->
+    <!-- * is universal operator this is use to apply changes in entire page-->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      #main-header {
+        height: 10vh;
+        background-color: rgb(0, 23, 233);
+        text-align: center;
+        padding: 30px;
+        font-style: normal;
+        color: aliceblue;
+      }
+
+      aside {
+        height: 80vh;
+        background-color: blueviolet;
+        color: aliceblue;
+        width: 30%;
+        float: left;
+        text-align: center;
+      }
+      .sub-footer {
+        background-color: rgb(210, 155, 16);
+        color: aliceblue;
+        height: 10vh;
+        text-align: center;
+        padding: 30px;
+      }
+      article {
+        background-color: darkolivegreen;
+        height: 60vh;
+        color: aliceblue;
+        text-align: center;
+      }
+      .sub-header {
+        background-color: crimson;
+        color: aliceblue;
+        height: 10vh;
+        text-align: center;
+      }
+      #mainfooter {
+        background-color: hotpink;
+        color: aliceblue;
+        height: 10vh;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- header starts here -->
+    <header id="main-header">header + nav</header>
+    <!-- section starts -->
+    <section>
+      <aside>aside</aside>
+      <header class="sub-header">sub header</header>
+      <article>article</article>
+      <footer class="sub-footer">subfooter</footer>
+    </section>
+
+    <footer id="mainfooter">main footer</footer>
+    <!-- header ends here -->
+  </body>
+</html>
